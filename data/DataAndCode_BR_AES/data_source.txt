@@ -1,0 +1,33 @@
+Data for: On Average Establishment Size across Sectors and Countries
+Published: 26 April 2021
+|
+Version 1
+|
+DOI:
+10.17632/tgpx8fb5ht.1
+Contributor:
+Diego Restuccia
+Description
+This dataset provides the necessary data to reproduce results in Bento and Restuccia "On Average Establishment Size across Sectors and Countries. There is a readme file with instructions and content. 
+
+Download All
+Files
+
+zip
+DataAndCode_BR_AES.zip
+70 KB
+Categories
+Economics
+Related Identifiers*
+This dataset is supplement to
+10.1016/j.jmoneco.2020.01.001
+*provided by DataCite
+
+Licence
+
+CC BY 4.0
+
+
+link:
+accessed: 15.10.2026
+https://data.mendeley.com/datasets/tgpx8fb5ht/1

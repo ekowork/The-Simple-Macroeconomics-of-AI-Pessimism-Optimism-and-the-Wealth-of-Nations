@@ -1,0 +1,6 @@
+THE HIERARY IS FROM TABLE A5
+https://web-archive.oecd.org/2023-11-24/644737-TiVA_2023_Indicators_Guide.pdf
+
+
+tiva database link
+https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_TIVA_MAINLV%40DF_MAINLV&df[ag]=OECD.STI.PIE&dq=VALU...W..A&pd=2022%2C&to[TIME_PERIOD]=false&vw=tb

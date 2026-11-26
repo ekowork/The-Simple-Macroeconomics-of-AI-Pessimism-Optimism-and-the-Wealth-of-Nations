@@ -1,0 +1,71 @@
+Hierarchy_Level,Parent_Code,Industry_Code,Industry_Description;
+0,_T,TOTAL,TOT;
+"1,_T,A,""Agriculture, hunting, forestry and fishing""";
+"2,A,A01_02,""Agriculture, hunting, forestry""";
+2,A,A03,Fishing and aquaculture;
+1,_T,B,Mining and quarrying;
+"2,B,B05_06,""Mining and quarrying, energy producing products""";
+"2,B,B07_08,""Mining and quarrying, non-energy producing products""";
+2,B,B09,Mining support service activities;
+1,_T,C,Total Manufacturing;
+"2,C,C10T12,""Food products, beverages and tobacco""";
+"2,C,C13T15,""Textiles, textile products, leather and footwear""";
+2,C,C16T18,Wood and paper products and printing;
+3,C16T18,C16,Wood and products of wood and cork;
+3,C16T18,C17_18,Paper products and printing;
+2,C,C19T23,Chemicals and non-metallic mineral products;
+3,C19T23,C19,Coke and refined petroleum products;
+3,C19T23,C20_21,Chemicals and pharmaceutical products;
+4,C20_21,C20,Chemical and chemical products;
+"4,C20_21,C21,""Pharmaceuticals, medicinal chemical and botanical products""";
+3,C19T23,C22,Rubber and plastics products;
+3,C19T23,C23,Other non-metallic mineral products;
+2,C,C24_25,Basic metals and fabricated metal products;
+3,C24_25,C24,Basic metals;
+3,C24_25,C25,Fabricated metal products;
+"2,C,C26_27,""Computer, electronic and electrical equipment""";
+"3,C26_27,C26,""Computer, electronic and optical equipment""";
+3,C26_27,C27,Electrical equipment;
+"2,C,C28,""Machinery and equipment, nec""";
+2,C,C29_30,Transport equipment;
+"3,C29_30,C29,""Motor vehicles, trailers and semi-trailers""";
+3,C29_30,C30,Other transport equipment;
+2,C,C31T33,Manufacturing nec; repair and installation of machinery and equipment
+"1,_T,D_E,""Electricity, gas, water supply, sewerage, waste and remediation services""";
+"2,D_E,D,""Electricity, gas, steam and air conditioning supply""";
+"2,D_E,E,""Water supply";" sewerage, waste management and remediation activities"""
+1,_T,F,Construction;
+1,_T,GTN,Total Business Sector Services;
+"2,GTN,GTI,""Distributive trade, transport, accommodation and food services""";
+3,GTI,G,Wholesale and retail trade; repair of motor vehicles
+3,GTI,H,Transportation and storage;
+4,H,H49,Land transport and transport via pipelines;
+4,H,H50,Water transport;
+4,H,H51,Air transport;
+4,H,H52,Warehousing and support activities for transportation;
+4,H,H53,Postal and courier activities;
+3,GTI,I,Accommodation and food service activities;
+2,GTN,J,Information and communication;
+"3,J,J58T60,""Publishing, audiovisual and broadcasting activities""";
+3,J,J61,Telecommunications;
+3,J,J62_63,IT and other information services;
+2,GTN,K,Financial and insurance activities;
+2,GTN,L,Real estate activities;
+2,GTN,M_N,Other business sector services;
+"3,M_N,M,""Professional, scientific and technical activities""";
+3,M_N,N,Administrative and support services;
+"1,_T,OTT,""Public admin, education, health and other personal services""";
+"2,OTT,OTQ,""Public admin, defence";" education and health"""
+3,OTQ,O,Public administration and defence; compulsory social security
+3,OTQ,P,Education;
+3,OTQ,Q,Human health and social work activities;
+2,OTT,RTT,Other social and personal services;
+"3,RTT,R_S,""Other community, social and personal services""";
+"4,RTT,R,""Arts, entertainment and recreation""";
+4,RTT,S,Other service activities;
+3,RTT,T,Activities of households as employers; undifferentiated goods- and services producing activities of households for own use
+"0,_T,BTE,""Industry (mining, manufactures and utilities)""";
+0,_T,FTT,Total services (incl. construction);
+0,_T,GTT,Total services;
+"0,_T,JTN,""Information, finance, real estate and other business services""";
+0,_T,DINFO,Information industries;

@@ -1,0 +1,86 @@
+These notes describe the variables contained in the attached three datasets and explain which datasets can be used to reproduce the Tables in the main text and the online appendix of "On Average Establishment Size across Sectors and Countries."
+
+The three datasets (provided in Stata's .dta format) are Data_BRAES_Final.dta, Data_BRAES_indFinal.dta, and Data_BRAES_indRaw.dta.
+
+
+*** Data_BRAES_Final.dta: This dataset can be used to reproduce the results in Tables 5, 6, and 7 in the main text.
+
+Variables:
+countrycode: 3-digit country code
+gdp: GDP per capita, PPP
+sizeM: average establishment size in the manufacturing sector
+sizeS: average establishment size in the services sector
+sizeNA: average establishment size in the non-agriculture sector
+elasM: productivity elasticity of distortions in manufacturing
+elasS: productivity elasticity of distortions in services
+empM: population multiplied by employment share of manufacturing in non-agriculture
+empS: population multiplied by employment share of services in non-agriculture
+extfin: aggregate external financing relative to GDP
+firing: firing costs
+open: aggregate exports plus imports relative to GDP
+sizeratio: average establishment size in manufacturing relative to services
+empratio: share of employment in manufacturing relative to services
+elasdiff: elasM minus elasS
+ind_code: industry code
+variables starting with an "l" are the natural log of the above
+
+
+*** Data_BRAES_indFinal.dta: This dataset can be used to reproduce the results in Table 4 (Baseline column) in the main text.
+
+Variables:
+countrycode: 3-digit country code
+gdp: GDP per capita, PPP
+size: average establishment size
+ind_code: industry code
+
+The industry codes used in this dataset are as follows:
+1 "Wholesale"
+2 "Retail"
+3 "Automobile Related"
+4 "Accommodations"
+5 "Restaurants"
+6 "Transportation and Storage"
+7 "Information and Communication"
+8 "Real Estate"
+9 "Business Services"
+10 "Art, Culture, and Recreation"
+11 "Finance (not incl. Insurance)"
+12 "Insurance"
+120 "Wholesale and Retail (not incl. auto-related trade)"
+130 "Wholesale and Auto Trade"
+230 "Retail and Auto Trade"
+1230 "Wholesale, Retail, and Auto Trade"
+450 "Accommodations and Restaurants"
+123450 "Wholesale, Retail, Auto Trade, Accommodations, and Restaurants"
+670 "Transportation, Storage, Information, and Communication"
+890 "Real Estate and Business Services"
+1112 "Finance and Insurance"
+71112 "Information, Communication, Finance, and Insurance"
+1112890 "Real Estate, Business Services, Finance, and Insurance"
+
+
+*** Data_BRAES_indRaw.dta: This dataset includes measures of average establishment size by industry using only raw data, as well as dummy variables signifying whether employees or persons engaged are used in the measure, whether firms or establishments are used in the measure, and whether nonemployers are used in the measure. This dataset can be used to reproduce the results in Table 4 (Raw column) in the main text, and Tables 3 and 4 in the Online Appendix.
+
+Variables:
+countrycode: 3-digit country code
+gdp: GDP per capita, PPP
+sizeM: average establishment size or average firm size in this country's manufacturing sector
+sizeS: average establishment size or average firm size
+elasM: productivity elasticity of distortions in manufacturing
+elasS: productivity elasticity of distortions in services
+empM: population multiplied by employment share of manufacturing in non-agriculture
+empS: population multiplied by employment share of services in non-agriculture
+extfin: aggregate external financing relative to GDP
+firing: firing costs
+open: aggregate exports plus imports relative to GDP
+sizeratio: average establishment size in manufacturing relative to this industry
+empratio: share of employment in manufacturing relative to services
+elasdiff: elasM minus elasS
+ind_code: industry code
+ifemp: equals 1 if sizeS is calculated using employment (rather than persons engaged), 0 otherwise
+ifempM: equals 1 if sizeM is calculated using employment (rather than persons engaged), 0 otherwise
+iffirm: equals 1 if sizeS is calculated using firms (rather than establishments), 0 otherwise
+iffirmM: equals 1 if sizeM is calculated using firms (rather than establishments), 0 otherwise
+firm1: equals 1 if sizeS is calculated without including nonemployers, 0 otherwise
+firm1M: equals 1 if sizeM is calculated without including nonemployers, 0 otherwise
+
