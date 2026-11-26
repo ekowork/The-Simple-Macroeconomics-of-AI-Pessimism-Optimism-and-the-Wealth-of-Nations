@@ -35,6 +35,4 @@ The main script loads the data, sources the supporting R scripts, calibrates the
 
 ## Citation
 
-If you use the code or data, please cite the accompanying paper:
-
-Auer, R., and Švéda, J. *The Simple Macroeconomics of AI Pessimism, Optimism, and the Wealth of Nations*.
+If you use the code or data, please cite the accompanying paper. 
